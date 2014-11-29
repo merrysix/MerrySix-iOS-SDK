@@ -2,7 +2,8 @@ MerrySix iOS SDK
 ==========
 About MerrySix iOS SDK
 Add the SDK to your Xcode project
-----------
+-------
+
 1. Drag `Merry6SDK.h`, `libMerry6SDK.a` and `M6SDKResource.bundle` to your project.
 	![sdkinstall_step1.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step1.png)
 	![sdkinstall_step2.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step2.png)
@@ -18,7 +19,8 @@ Add the SDK to your Xcode project
 5. That's it!
 
 Integrate with the SDK
-----------
+-------
+
 1. Import the `Merry6SDK.h` header file:2. 
 
 	```
@@ -39,3 +41,20 @@ Integrate with the SDK
 	```
 	[m6sdk setDelegate:self];
 	```
+
+Requirements
+-------
+
+* Xcode 5.0 and iOS SDK 6.0 or above
+* iPhone and iOS Simulator are supported
+* iOS 6.0 or above, retina display preferred
+
+Support
+-------
+
+If there is any problem regarding the MerrySix iOS SDK, feel free to contact us at support@merrysix.com
+
+Issues?
+-------
+
+You may submit on github any issues encountered: https://github.com/merrysix/MerrySix-iOS-SDK/issues
