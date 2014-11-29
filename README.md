@@ -19,19 +19,23 @@ Add the SDK to your Xcode project
 
 Integrate with the SDK
 ----------
-1. Import the `Merry6SDK.h` header file:
+1. Import the `Merry6SDK.h` header file:2. 
+
 	```
 	#import "Merry6.h"
 	```
 2. Instanse a Merry6SDK object:
+
 	```
 	Merry6SDK *m6sdk = [Merry6SDK sharedM6SDK];
 	```
 3. Configure your Access Key:
+
 	```
 	[m6sdk setAccessKey:@"YOUR-ACCESS-KEY"];
 	```
 4. Assign your view controller as a delegate:
+
 	```
 	[m6sdk setDelegate:self];
 	```
