@@ -42,6 +42,26 @@ Integrate with the SDK
 	[m6sdk setDelegate:self];
 	```
 
+5. Implement the `Merry6SDKDelegate` protocol methods:
+
+	```
+	- (void)merry6SDKOrderCompleted {
+		[self dismissModalViewControllerAnimated:YES];
+		// TODO do something when order completed
+	}
+	- (void)merry6SDKUserCancelled {
+		[self dismissModalViewControllerAnimated:YES];
+		// TODO do something when user cancelled order
+	}
+	```
+	
+6. The final step to present the 
+
+	```
+	UIViewController *vc = [m6sdk newMerry6ViewController:yourImage];
+	[self presentModalViewController:vc animated:YES];
+	```
+
 Requirements
 -------
 
