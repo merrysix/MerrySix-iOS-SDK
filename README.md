@@ -55,7 +55,7 @@ Integrate with the SDK
 	}
 	```
 	
-6. The final step to present the 
+6. The final step to present the Merry6ViewController
 
 	```
 	UIViewController *vc = [m6sdk newMerry6ViewController:yourImage];
