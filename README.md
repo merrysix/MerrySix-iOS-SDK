@@ -21,7 +21,7 @@ Add the SDK to your Xcode project
 Integrate with the SDK
 -------
 
-1. Import the `Merry6SDK.h` header file:2. 
+1. Import the `Merry6SDK.h` header file:
 
 	```
 	#import "Merry6.h"
