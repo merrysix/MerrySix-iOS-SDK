@@ -15,6 +15,12 @@ Add the SDK to your Xcode project
 
 4. Under the "Link Binary With Libraries" section in your target's Build Phases, press the plus (+) button. Add the following system frameworks:
 	* SystemConfiguration.framework
+	* MobileCoreServices.framework
+	* MessageUI.framework
+	* CoreMedia.framework
+	* CoreLocation.framework
+	* AVFoundation.framework
+	* AudioToolbox.framework
 
 5. That's it!
 
