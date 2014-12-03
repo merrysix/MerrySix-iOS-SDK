@@ -23,7 +23,7 @@
 @property (nonatomic, weak) id<Merry6SDKDelegate> delegate;
 
 + (instancetype)sharedM6SDK;
-+ (NSString *)m6PathForResource:(NSString *)resource ofType:(NSString *)type;
++ (NSString *)m6PathForResource:(NSString *)resource ofType:(NSString *)type inDirectory:(NSString *)directory;
 - (UIViewController *)newMerry6ViewController:(UIImage *)phoneCase;
 
 @end
