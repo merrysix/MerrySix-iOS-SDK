@@ -1,7 +1,7 @@
 MerrySix iOS SDK
 ==========
 MerrySix SDK connects your app with our services and enables the user to purchase customized product based on user generated content through your app. 
-Each sale through your app will bring commission to your account managed at our affiliate backstage. MerrySix will be fully responsible for producing, shipping and handling after sale customer services. You can easily integrate MerrySix SDK to your iOS app by following the steps listed below and start earning commission in just a snap.For more information or further questions please contact us at support@merrysix.com
+Each sale through your app will bring commission to your account managed at our affiliate backstage. MerrySix will be fully responsible for producing, shipping and handling after sale customer services. You can easily integrate MerrySix SDK to your iOS app by following the steps listed below and start earning commission in just a snap.For more information or further questions please contact us at affiliate@merrysix.com
 Add the SDK to your Xcode project
 -------
 
