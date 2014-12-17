@@ -79,7 +79,7 @@ Requirements
 Support
 -------
 
-If there is any problem regarding the MerrySix iOS SDK, feel free to contact us at support@merrysix.com
+If there is any problem regarding the MerrySix iOS SDK, feel free to contact us at affiliate@merrysix.com
 
 Issues?
 -------
