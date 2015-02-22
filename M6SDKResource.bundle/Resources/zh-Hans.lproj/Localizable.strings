@@ -1,0 +1,248 @@
+/* 
+  Localizable.strings
+  Merry6SDK
+
+  Created by 高磊 on 14/10/22.
+  Copyright (c) 2014年 MerrySix. All rights reserved.
+*/
+
+/* OK */
+"OK" = "好";
+
+/* Cancel */
+"Cancel" = "取消";
+
+/* All */
+"All" = "全部";
+
+/* Category */
+"Category" = "分类";
+
+/* Camera */
+"Camera" = "拍摄";
+
+/* Photo */
+"Photo" = "相册";
+
+/* Edit */
+"Edit" = "编辑";
+
+/* Share */
+"Share" = "共享";
+
+/* Buy Now */
+"Buy Now" = "立即购买";
+
+/* Review */
+"Review" = "购物车";
+
+/* CheckOut */
+"CheckOut" = "结账";
+
+/* PRINT QUALITY */
+"PRINT QUALITY" = "打印质量";
+
+/* Photo Library */
+"Photo Library" = "手机相册";
+
+/* Custom your own phone case or mugs */
+"Custom your own phone case or mugs" = "定制属于你自己的手机壳或马克杯";
+
+/* No Internet Connection */
+"No Internet Connection" = "网络连接故障";
+
+/* Please check your connection and try again. */
+"Please check your connection and try again." = "请检查网络连接后重试";
+
+/* Retry */
+"Retry" = "重试";
+
+/* Saved */
+"Saved" = "已保存";
+
+/* Free shipping worldwide */
+"Free shipping worldwide" = "全国包邮";
+
+/* Estimated delivery in 10~15 working days */
+"Estimated delivery in 10~15 working days" = "将于3~7个工作日内送达";
+
+/* By placing order, you agree to our terms & conditions. */
+"By placing order, you agree to our terms & conditions." = "当你结账意味着你同意我们的条款和条件.";
+
+/* Contact us */
+"Contact us" = "联系我们";
+
+/* Yor can reach us by sending e-mails to support@merrysix.com for order enquiries. */
+"Yor can reach us by sending e-mails to support@merrysix.com for order enquiries." = "您可以发送电子邮件到 support@merrysix.org 查询订单状态.";
+
+/* Item: */
+"Item:" = "商品:";
+
+/* QTY: */
+"QTY:" = "数量:";
+
+/* Amount: */
+"Amount:" = "金额:";
+
+/* Address */
+"Address" = "地址";
+
+/* Current locatiotn */
+"Current locatiotn" = "当前位置";
+
+/* Ship to your current GPS location. */
+"Ship to your current GPS location." = "通过GPS定位获取你当前位置作为收货地址.";
+
+/* To my friend */
+"To my friend" = "给朋友";
+
+/* Ship to your friend's address in your contact book. */
+"Ship to your friend's address in your contact book." = "从通讯录选择一个联系人地址作为收货地址";
+
+/* Fill in your shipping address */
+"Fill in your shipping address" = "填写你的收货地址";
+
+/* Tap here to fill your shipping address. */
+"Tap here to fill your shipping address." = "轻触这里填写收货地址.";
+
+/* ============ CheckOut ========= */
+
+/* Preparing to checkout... */
+"Preparing to checkout..." = "正在准备结账...";
+
+/* Uploading your plan... */
+"Uploading your plan..." = "正在处理你的照片...";
+
+/* Checking out... */
+"Checking out..." = "结账中...";
+
+/* ============ Credit Card ====== */
+
+/* Credit Card */
+"Credit Card" = "信用卡";
+
+/* Pay */
+"Pay" = "付款";
+
+/* We do NOT store any credit card information. All data is transferred securely through 3rd party payment gateway. */
+"We do NOT store any credit card information. All data is transferred securely through 3rd party payment gateway." = "您的支付会通过安全的第三方支付网关进行，\n我们不会存储任何敏感支付信息。";
+
+/* Cradholder Name */
+"Cradholder Name" = "持卡人姓名";
+
+/* Expiration */
+"Expiration" = "过期时间";
+
+/* Card Number */
+"Card Number" = "卡号";
+
+/* CVV / CVC */
+"CVV / CVC" = "卡安全码（CVV / CVC）";
+
+/* ============ Cells ============ */
+
+/* First name */
+"First name" = "名";
+
+/* Last name */
+"Last name" = "姓";
+
+/* Street address line 1 */
+"Street address line 1" = "收货地址";
+
+/* Street address line 2 */
+"Street address line 2" = "收货地址";
+
+/* City */
+"City" = "城市";
+
+/* State/Province */
+"State/Province" = "州/省";
+
+/* Postal Code/Zip Code */
+"Postal Code/Zip Code" = "邮编";
+
+/* Phone number (optional) */
+"Phone number (optional)" = "手机号码 (选填)";
+
+/* Country */
+"Country" = "国家";
+
+/* ============ CLImage ========== */
+
+/* No comment provided by engineer. */
+"CLImageEditor_BackBtnTitle" = "返回";
+
+/* No comment provided by engineer. */
+"CLClippingTool_DefaultTitle" = "剪裁";
+
+/* No comment provided by engineer. */
+"CLFilterTool_DefaultTitle" = "滤镜";
+
+/* No comment provided by engineer. */
+"CLRotateTool_DefaultTitle" = "旋转";
+
+/* No comment provided by engineer. */
+"CLTextTool_DefaultTitle" = "文字";
+
+/* ============ KaseDIY Part ============ */
+
+/* Error */
+"Error" = "错误";
+
+/* Warning */
+"Warning" = "警告";
+
+/* Continue */
+"Continue" = "继续";
+
+/* Not now */
+"Not now" = "暂不";
+
+/* All previous changes applied to the image will be reset. */
+"All previous changes applied to the image will be reset." = "所有的图片编辑将被重置.";
+
+/* Tap here to edit the image. */
+"Tap here to edit the image." = "轻触这里编辑图片.";
+
+/* Make an unique customized phone case using your own image, check it out! */
+"Make an unique customized phone case using your own image, check it out!" = "使用你自己的照片制作一个独一无二的手机壳!";
+
+/* Shipping address required */
+"Shipping address required" = "收货地址必填";
+
+/* Please provide shipping information. */
+"Please provide shipping information." = "请提供收货信息.";
+
+/* Preparing to checkout... */
+"Preparing to checkout..." = "正在准备结账...";
+
+/* Uploading your plan... */
+"Uploading your plan..." = "正在处理你的照片...";
+
+/* Checking out... */
+"Checking out..." = "结账中...";
+
+/* Shipping Address */
+"Shipping Address" = "收货地址";
+
+/* Payment Method */
+"Payment Method" = "支付方式";
+
+/* Shopping Information */
+"Shopping Information" = "商品信息";
+
+/* Checking payment result ... */
+"Checking payment result ..." = "检查支付结果 ...";
+
+/* Payment fail */
+"Payment fail" = "支付失败";
+
+/* Your order pay success */
+"Your order pay success" = "支付完成";
+
+/* Order Number: %ld" */
+"Order Number: %ld" = "订单号: %ld";
+
+/* E-mail: %@ */
+"E-mail: %@" = "E-mail: %@";
