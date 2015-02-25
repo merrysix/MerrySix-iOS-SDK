@@ -5,7 +5,7 @@ MerrySix SDK connects your app with our services and enables the user to purchas
 Add the SDK to your Xcode project
 -------
 
-1. Drag `Merry6SDK.h`, `libMerry6SDK.a` and `M6SDKResource.bundle` to your project.
+1. Drag `Merry6SDK.h`, `libMerry6SDK.a`, `AlipaySDK.framework` and `M6SDKResource.bundle` to your project.
 	![sdkinstall_step1.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step1.png)
 	![sdkinstall_step2.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step2.png)
 
@@ -14,7 +14,10 @@ Add the SDK to your Xcode project
 3. Verify that `M6SDKResource.bundle` appears in the "Copy Bundle Resources" section in your target's Build Phases. If it does not, you can add it by dragging the `M6SDKResource.bundle` from your Project Navigator to the "Copy Bundle Resources" section.
 	![sdkinstall_step3.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step3.png)
 
-4. Under the "Link Binary With Libraries" section in your target's Build Phases, press the plus (+) button. Add the following system frameworks:
+4. Set your App's URL Schemes if not exists.
+	![sdkinstall_setp4.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step4.png)
+
+5. Under the "Link Binary With Libraries" section in your target's Build Phases, press the plus (+) button. Add the following system frameworks:
 	* SystemConfiguration.framework
 	* MobileCoreServices.framework
 	* MessageUI.framework
@@ -23,7 +26,7 @@ Add the SDK to your Xcode project
 	* AVFoundation.framework
 	* AudioToolbox.framework
 
-5. That's it!
+6. That's it!
 
 Integrate with the SDK
 -------
@@ -43,13 +46,20 @@ Integrate with the SDK
 	```
 	[m6sdk setAccessKey:@"YOUR-ACCESS-KEY"];
 	```
-4. Assign your view controller as a delegate:
+	
+4. Configure your App's URL Schemes:
+
+	```
+	[m6sdk setUrlSchemes:@"YOUR_URL_SCHEMES"];
+	```
+	
+5. Assign your view controller as a delegate:
 
 	```
 	[m6sdk setDelegate:self];
 	```
 
-5. Implement the `Merry6SDKDelegate` protocol methods:
+6. Implement the `Merry6SDKDelegate` protocol methods:
 
 	```
 	- (void)merry6SDKOrderCompleted {
@@ -62,11 +72,23 @@ Integrate with the SDK
 	}
 	```
 	
-6. The final step to present the Merry6ViewController
+7. Present the Merry6ViewController
 
 	```
 	UIViewController *vc = [m6sdk newMerry6ViewController:yourImage];
 	[self presentModalViewController:vc animated:YES];
+	```
+
+8. The final step, continue complete your AppDelegate.m:
+
+	```
+	#import "Merry6SDK.h"
+	```
+	```
+	- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+		[Merry6SDK AlipayCallbackCheck:url];
+		return YES;
+	}
 	```
 
 Requirements
