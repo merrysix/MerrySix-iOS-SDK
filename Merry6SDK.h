@@ -19,11 +19,14 @@
 @interface Merry6SDK : NSObject
 
 @property (nonatomic, strong) NSString *accessKey;
+@property (nonatomic, strong) NSString *urlSchemes;
 
 @property (nonatomic, weak) id<Merry6SDKDelegate> delegate;
 
 + (instancetype)sharedM6SDK;
 + (NSString *)m6PathForResource:(NSString *)resource ofType:(NSString *)type inDirectory:(NSString *)directory;
++ (NSString *)m6LocalizedString:(NSString *)key forComment:(NSString *)comment;
 - (UIViewController *)newMerry6ViewController:(UIImage *)phoneCase;
++ (void)AlipayCallbackCheck:(NSURL *)url;
 
 @end
