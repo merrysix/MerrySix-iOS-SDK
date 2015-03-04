@@ -15,9 +15,12 @@ Add the SDK to your Xcode project
 	![sdkinstall_step3.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step3.png)
 
 4. Set your App's URL Schemes if not exists.
-	![sdkinstall_setp4.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step4.png)
+	![sdkinstall_step4.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step4.png)
 
-5. Under the "Link Binary With Libraries" section in your target's Build Phases, press the plus (+) button. Add the following system frameworks:
+5. Add an row into your APP's `Custom iOS Target Properties` called `NSLocationWhenInUseUsageDescription` and the value is `Get your shipping address`.
+	![sdkinstall_step5.png](https://github.com/merrysix/MerrySix-iOS-SDK/raw/master/screenshot/sdkinstall_step5.png)
+
+6. Under the "Link Binary With Libraries" section in your target's Build Phases, press the plus (+) button. Add the following system frameworks:
 	* SystemConfiguration.framework
 	* MobileCoreServices.framework
 	* MessageUI.framework
@@ -26,7 +29,7 @@ Add the SDK to your Xcode project
 	* AVFoundation.framework
 	* AudioToolbox.framework
 
-6. That's it!
+7. That's it!
 
 Integrate with the SDK
 -------
