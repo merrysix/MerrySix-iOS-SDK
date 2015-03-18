@@ -16,6 +16,12 @@
 
 @end
 
+extern NSString * const kM6DeviceiPhone4;
+extern NSString * const kM6DeviceiPhone5;
+extern NSString * const kM6DeviceiPhone5c;
+extern NSString * const kM6DeviceiPhone6;
+extern NSString * const kM6DeviceiPhone6Plus;
+
 @interface Merry6SDK : NSObject
 
 @property (nonatomic, strong) NSString *accessKey;
@@ -27,6 +33,7 @@
 + (NSString *)m6PathForResource:(NSString *)resource ofType:(NSString *)type inDirectory:(NSString *)directory;
 + (NSString *)m6LocalizedString:(NSString *)key forComment:(NSString *)comment;
 - (UIViewController *)newMerry6ViewController:(UIImage *)phoneCase;
+- (UIViewController *)newMerry6ViewController:(UIImage *)phoneCase withDevicePhoneCase:(NSDictionary *)devicePhoneCase;
 + (void)AlipayCallbackCheck:(NSURL *)url;
 
 @end
