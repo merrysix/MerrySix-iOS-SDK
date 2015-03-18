@@ -244,8 +244,17 @@
 /* Your order pay success */
 "Your order pay success" = "支付完成";
 
-/* Order Number: %ld" */
+/* Order Number: %ld */
 "Order Number: %ld" = "订单号: %ld";
 
 /* E-mail: %@ */
 "E-mail: %@" = "E-mail: %@";
+
+/* SUCCESS */
+"SUCCESS" = "支付完成";
+
+/* Done */
+"Done" = "完成";
+
+/* An e-mail with order information has been sent to the above e-mail address, please follow the link within to track your order status or contact us at support@merrysix.com for more inquires. */
+"An e-mail with order information has been sent to the above e-mail address, please follow the link within to track your order status or contact us at support@merrysix.com for more inquires." = "您的订单信息已发送至上述电子邮箱，您可按照邮件中链接跟踪订单状态。要获取更多信息，请发邮件至support@merrysix.org。";
