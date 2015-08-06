@@ -264,3 +264,24 @@
 
 /* Back */
 "Back" = "返回";
+
+/* Please provide a valid e-mail address */
+"Please provide a valid e-mail address" = "请输入有效的电子邮箱地址";
+
+/* Please enter first name */
+"Please enter first name" = "请填写您的名字";
+
+/* Please enter last name */
+"Please enter last name" = "请填写您的姓氏";
+
+/* Please enter street address */
+"Please enter street address" = "请填写收货地址";
+
+/* Please enter shipping city */
+"Please enter shipping city" = "请填写城市";
+
+/* Please enter shipping state/province */
+"Please enter shipping state/province" = "请填写省份";
+
+/* Please enter shipping postal code */
+"Please enter shipping postal code" = "请填写邮编";
