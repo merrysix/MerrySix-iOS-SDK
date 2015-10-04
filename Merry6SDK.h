@@ -21,6 +21,12 @@ extern NSString * const kM6DeviceiPhone5;
 extern NSString * const kM6DeviceiPhone5c;
 extern NSString * const kM6DeviceiPhone6;
 extern NSString * const kM6DeviceiPhone6Plus;
+extern NSString * const kM6DeviceMugs;
+extern NSString * const kM6DeviceiPadAir;
+extern NSString * const kM6DeviceiPadAir2;
+extern NSString * const kM6DeviceiPadMini;
+extern NSString * const kM6DeviceiPadMini2;
+
 
 @interface Merry6SDK : NSObject
 
